@@ -12,19 +12,40 @@ The spot is fixed by environment variable (`SURFLINE_SPOT_ID`) so this server is
 
 ```bash
 cd surfline-mcp
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
+uv sync
 ```
 
 ## Run (stdio MCP server)
 
 ```bash
 cd surfline-mcp
-source .venv/bin/activate
 export SURFLINE_SPOT_ID=5842041f4e65fad6a7708852
-python server.py
+uv run surfline-mcp
+```
+
+## Run via uvx (from GitHub)
+
+```bash
+export SURFLINE_SPOT_ID=5842041f4e65fad6a7708852
+uvx --from git+https://github.com/ivoytov/surfline-mcp surfline-mcp
+```
+
+## Nanobot MCP config (uvx)
+
+```json
+{
+  "tools": {
+    "mcpServers": {
+      "surfline": {
+        "command": "uvx",
+        "args": ["--from", "git+https://github.com/ivoytov/surfline-mcp", "surfline-mcp"],
+        "env": {
+          "SURFLINE_SPOT_ID": "5842041f4e65fad6a7708852"
+        }
+      }
+    }
+  }
+}
 ```
 
 ## Tool
