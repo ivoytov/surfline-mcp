@@ -1,0 +1,139 @@
+{
+    "associated": {
+        "timezone": "America/New_York",
+        "units": {
+            "temperature": "F",
+            "tideHeight": "FT",
+            "swellHeight": "FT",
+            "waveHeight": "FT",
+            "windSpeed": "KTS",
+            "pressure": "MB"
+        },
+        "utcOffset": -4
+    },
+    "data": {
+        "conditions": [
+            {
+                "timestamp": 1775966400,
+                "forecastDay": "2026-04-12",
+                "forecaster": {
+                    "name": "Caleb Buchler",
+                    "avatar": "https://www.gravatar.com/avatar/b3d8d82c4dd098f5a503c64399eb5097?d=mm"
+                },
+                "human": true,
+                "dayToWatch": true,
+                "headline": "Easing ESE/SE swell. Onshore southerlies for afternoon.",
+                "observation": "ESE swell is easing but looks very doable on small wave gear around knee to waist high with standouts still going stomach high+ at times for midday. Southerly onshore breezes expected the rest of the day with textured conditions over the afternoon hours.",
+                "am": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "pm": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "utcOffset": -4
+            },
+            {
+                "timestamp": 1776052800,
+                "forecastDay": "2026-04-13",
+                "forecaster": {
+                    "name": "Caleb Buchler",
+                    "avatar": "https://www.gravatar.com/avatar/b3d8d82c4dd098f5a503c64399eb5097?d=mm"
+                },
+                "human": true,
+                "dayToWatch": false,
+                "headline": "Developing local windswell and moderate to breezy southerly winds.",
+                "observation": "Moderate to breezy SSW trending SW winds fill in. Starting out pretty small, but should see surf build into the thigh to waist high+ zone over the afternoon with stomach+ peaks standouts. Expect choppy poor conditions though so keep expectations low.",
+                "am": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "pm": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "utcOffset": -4
+            },
+            {
+                "timestamp": 1776139200,
+                "forecastDay": "2026-04-14",
+                "forecaster": {
+                    "name": "Caleb Buchler",
+                    "avatar": "https://www.gravatar.com/avatar/b3d8d82c4dd098f5a503c64399eb5097?d=mm"
+                },
+                "human": true,
+                "dayToWatch": true,
+                "headline": "Leftover windswell/swell. Lighter WSW/SW winds to start and OK conditions. ",
+                "observation": "S windswell lingers early, mixed with underlying SE/ESE swell. AM is going to be the window to target with tempered expectations for best conditions/most size. Still some lingering bump, but WSW/SW winds during that time look fairly light so there should be some workable peaks at the right sandbar. Southerly winds redeveloping for additional PM texture.",
+                "am": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "pm": {
+                    "timestamp": 0,
+                    "observation": "",
+                    "rating": null,
+                    "minHeight": 0,
+                    "maxHeight": 0,
+                    "plus": false,
+                    "humanRelation": "",
+                    "occasionalHeight": null
+                },
+                "utcOffset": -4
+            }
+        ],
+        "lastPublished": 1776011349
+    },
+    "permissions": {
+        "data": [],
+        "violations": [
+            {
+                "code": 4001,
+                "message": "User does not have optional permission:sl_core-16day-forecast",
+                "permission": {
+                    "name": "sl_core-16day-forecast",
+                    "required": false
+                }
+            },
+            {
+                "code": 4001,
+                "message": "User does not have optional permission:sl_live-wind",
+                "permission": {
+                    "name": "sl_live-wind",
+                    "required": false
+                }
+            }
+        ]
+    }
+}
